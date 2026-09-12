@@ -18,5 +18,5 @@ func main() {
 	// データがくるまでここで待機する
 	result := <-ch
 
-	fmt.Printf("受信した値：%d\n", result)
+	fmt.Println("受信した値：", result)
 }
